@@ -1,0 +1,31 @@
+.Deck{
+    font-family: 'Slabo 27px', serif;
+}
+.Deck-Area{
+    margin-top: 2rem;
+}
+.Deck-Title{
+    color: azure;
+    font-size: 40px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+.Deck-Title.Subtitle{
+    font-size: 20px;
+}
+.Btn{
+    background: none;
+    outline: none;
+    font-size: inherit;
+    margin: 0.5rem;
+    padding: 1rem 2rem;
+    color: white;
+    border-radius: 10px;
+    font-weight: bold ;
+    transition: .5s;
+}
+.Btn:hover{
+    border: 2px solid rgb(54, 54, 255);
+    color: white;
+    box-shadow: inset 0 0 0 2em rgb(54, 54, 255);
+}
